@@ -7,6 +7,7 @@ import (
 	"github.com/gossie/adventofcode2015/day2"
 	"github.com/gossie/adventofcode2015/day3"
 	"github.com/gossie/adventofcode2015/day4"
+	"github.com/gossie/adventofcode2015/day5"
 )
 
 func main() {
@@ -25,4 +26,8 @@ func main() {
 	fmt.Println("\nPerforming tasks of day 4")
 	fmt.Println("Day 4, task 1: ", day4.Mine("00000"))
 	fmt.Println("Day 4, task 2: ", day4.Mine("000000"))
+
+	fmt.Println("\nPerforming tasks of day 5")
+	fmt.Println("Day 5, task 1: ", day5.NiceWordsOldRules("day5/day5.txt"))
+	fmt.Println("Day 5, task 2: ", day5.NiceWordsNewRules("day5/day5.txt"))
 }
